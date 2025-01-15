@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/baanknet-eauction/static/css/main.8eb302a7.css",
+    "main.js": "/baanknet-eauction/static/js/main.a1e1a990.js",
+    "static/js/488.37e1f5a1.chunk.js": "/baanknet-eauction/static/js/488.37e1f5a1.chunk.js",
+    "static/media/AgriculturalAuctionsLogo.svg": "/baanknet-eauction/static/media/AgriculturalAuctionsLogo.5fd869782f9dc7717d61029c917d7953.svg",
+    "static/media/CommercialAuctionsLogo.svg": "/baanknet-eauction/static/media/CommercialAuctionsLogo.c3deab06aa27711840e73ebc8215e73b.svg",
+    "static/media/ResidentialAuctionsLogo.svg": "/baanknet-eauction/static/media/ResidentialAuctionsLogo.59ea65b08b5311e268bb471cba5faa3a.svg",
+    "index.html": "/baanknet-eauction/index.html",
+    "static/media/HouseIcon.svg": "/baanknet-eauction/static/media/HouseIcon.1e68dc53493e3bd65bda9b14fea9ed22.svg",
+    "static/media/RupeesIcon.svg": "/baanknet-eauction/static/media/RupeesIcon.9c480908822436534ca170d33f4d0851.svg",
+    "static/media/LocationIcon.svg": "/baanknet-eauction/static/media/LocationIcon.89bd5ea48ab76e725c73b55ec1e192b0.svg",
+    "static/media/IndustrialAuctionsLogo.svg": "/baanknet-eauction/static/media/IndustrialAuctionsLogo.a46a1feb2b0140bde416f84e26d0e15c.svg",
+    "static/media/OtherAuctionsLogo.svg": "/baanknet-eauction/static/media/OtherAuctionsLogo.617da1c57233ce92215e8705e0076a2e.svg",
+    "main.8eb302a7.css.map": "/baanknet-eauction/static/css/main.8eb302a7.css.map",
+    "main.a1e1a990.js.map": "/baanknet-eauction/static/js/main.a1e1a990.js.map",
+    "488.37e1f5a1.chunk.js.map": "/baanknet-eauction/static/js/488.37e1f5a1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8eb302a7.css",
+    "static/js/main.a1e1a990.js"
+  ]
+}
