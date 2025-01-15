@@ -42,7 +42,7 @@ const Pagination = ({
                 </button>
     
                 {Array.from({ length: 3 }).map((_, index) => (
-                    <>
+                    <React.Fragment key={index + 1}>
                         {(currentPage > 3 && currentPage < totalPages && index == 2) ?
                             <>
                                 <button
@@ -77,7 +77,7 @@ const Pagination = ({
                                 {index + 1}
                             </button>
                         }
-                    </>
+                    </React.Fragment>
                 ))}
                 <button
                     className={`px-3 py-1 bg-gray-200 rounded-full cursor-default`}

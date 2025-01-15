@@ -33,7 +33,6 @@ const Header = () => {
                 {/* Logo */}
                 <div className="flex gap-4">
                     <img
-                        // src="/assets/logo.png"
                         src="https://d14q55p4nerl4m.cloudfront.net/Production/Application-Documents/Generic-Instance/client-logo/PSB_Alliance_Logo.svg?v=02122024204600"
                         alt="logo"
                         tabIndex={0}
@@ -51,6 +50,7 @@ const Header = () => {
                     {
                         navBarOptions?.map((option) => {
                             return <a
+                                key={option?.label}
                                 href={option?.href}
                                 className="relative p-6 text-sm font-medium tracking-wide group"
                             >

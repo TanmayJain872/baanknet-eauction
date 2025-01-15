@@ -25,14 +25,14 @@ const About = () => {
                     <ul className="list-disc list-inside">
                         {
                             valuesDelivered.map(value => (
-                                <li className="font-bold marker:text-other-purple-300">{value}</li>
+                                <li key={value} className="font-bold marker:text-other-purple-300">{value}</li>
                             ))
                         }
                     </ul>
                 </div>
             </div>
             <div className="container flex justify-center">
-                <img className="w-1/2 h-3/4 shadow-lg" src="/assets/images/about-baanknet.png" />
+                <img className="w-1/2 h-3/4 shadow-lg" src="/assets/images/about-baanknet.png" alt={"about-image"} />
             </div>
         </div>
     </section>

@@ -16,15 +16,15 @@ const PrimaryHeader = () => {
             <div className="container mx-auto flex justify-between items-center py-4">
                 <div className="flex gap-2">
                     <div className="flex gap-1">
-                        <img className="w-4 h-4" src={"assets/SvgIcons/time.svg"} />
+                        <img className="w-4 h-4" src={"/assets/SvgIcons/time.svg"} alt={"time-logo"} />
                         <p className="text-xs">{new Date().toISOString()}</p>
                     </div>
                     <div className="flex gap-1">
-                        <img className="w-4 h-4" src={"assets/SvgIcons/email.svg"} />
+                        <img className="w-4 h-4" src={"/assets/SvgIcons/email.svg"} alt={"email-logo"} />
                         <p className="text-xs">support.BAANKNET@psballiance.com</p>
                     </div>
                     <div className="flex gap-1">
-                        <img className="w-4 h-4" src={"assets/SvgIcons/phone.svg"} />
+                        <img className="w-4 h-4" src={"/assets/SvgIcons/phone.svg"} alt={"phone-logo"} />
                         <p className="text-xs">+91 8291220220</p>
                     </div>
                 </div>

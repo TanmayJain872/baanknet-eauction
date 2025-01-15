@@ -1,7 +1,7 @@
 /* jshint esversion: 11 */
 
-import React, { useEffect, useState } from "react";
-import { auctionAttributes, auctions, auctionsFilterOptions, defaultAuctionFilterValue } from "../constants/auctions.js";
+import React, { useState } from "react";
+import { auctionAttributes, auctions, auctionsFilterOptions } from "../constants/auctions.js";
 import Pagination from "./Pagination.js";
 
 const UpcomingAuctions = () => {
@@ -21,7 +21,7 @@ const UpcomingAuctions = () => {
   );
 
   return (
-    <div className="p-4 max-w-7xl mx-auto bg-cover bg-center" style={{backgroundImage: "url('baanknet-eauction/src/assets/images/upcoming-auctions-background-image.png')"}}>
+    <div className="p-4 max-w-7xl mx-auto bg-cover bg-center" style={{backgroundImage: "url('/assets/images/upcoming-auctions-background-image.png')"}}>
       {/* Heading */}
       <h1 className="text-3xl font-bold text-center mb-6 text-other-blue-900">
         Upcoming <span className="text-other-purple-300">Auctions in 30 days</span>
@@ -33,7 +33,7 @@ const UpcomingAuctions = () => {
             return (
                 <div
                     key={tab?.name}
-                    className={`flex items-center justify-center gap-1 px-4 py-2 ${selectedFilter == tab?.name ? "bg-other-purple-600 text-white" : "bg-purple-100 text-other-purple-600"} rounded-4xl font-medium hover:bg-other-purple-600 hover:text-white group`}
+                    className={`flex items-center justify-center gap-1 px-4 py-2 ${selectedFilter === tab?.name ? "bg-other-purple-600 text-white" : "bg-purple-100 text-other-purple-600"} rounded-4xl font-medium hover:bg-other-purple-600 hover:text-white group`}
                     onClick={() => setSelectedFilter(tab?.name)}
                 >
                     <div className="fill-other-purple-600 group-hover:fill-white">
@@ -51,8 +51,8 @@ const UpcomingAuctions = () => {
           <thead>
             <tr className="bg-purple-100 text-left">
               {
-                auctionAttributes?.map((attributeName) => (
-                    <th key={attributeName} className="p-2 border border-gray-200">{attributeName}</th>
+                auctionAttributes?.map((attributeName, index) => (
+                    <th key={`${attributeName}${index + 1}`} className="p-2 border border-gray-200">{attributeName}</th>
                 ))
               }
             </tr>
