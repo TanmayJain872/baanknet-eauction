@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/baanknet-eauction/static/css/main.8eb302a7.css",
-    "main.js": "/baanknet-eauction/static/js/main.030928f9.js",
+    "main.js": "/baanknet-eauction/static/js/main.0f1d35ff.js",
     "static/js/488.37e1f5a1.chunk.js": "/baanknet-eauction/static/js/488.37e1f5a1.chunk.js",
     "static/media/AgriculturalAuctionsLogo.svg": "/baanknet-eauction/static/media/AgriculturalAuctionsLogo.5fd869782f9dc7717d61029c917d7953.svg",
     "static/media/CommercialAuctionsLogo.svg": "/baanknet-eauction/static/media/CommercialAuctionsLogo.c3deab06aa27711840e73ebc8215e73b.svg",
@@ -13,11 +13,11 @@
     "static/media/IndustrialAuctionsLogo.svg": "/baanknet-eauction/static/media/IndustrialAuctionsLogo.a46a1feb2b0140bde416f84e26d0e15c.svg",
     "static/media/OtherAuctionsLogo.svg": "/baanknet-eauction/static/media/OtherAuctionsLogo.617da1c57233ce92215e8705e0076a2e.svg",
     "main.8eb302a7.css.map": "/baanknet-eauction/static/css/main.8eb302a7.css.map",
-    "main.030928f9.js.map": "/baanknet-eauction/static/js/main.030928f9.js.map",
+    "main.0f1d35ff.js.map": "/baanknet-eauction/static/js/main.0f1d35ff.js.map",
     "488.37e1f5a1.chunk.js.map": "/baanknet-eauction/static/js/488.37e1f5a1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8eb302a7.css",
-    "static/js/main.030928f9.js"
+    "static/js/main.0f1d35ff.js"
   ]
 }
