@@ -32,7 +32,7 @@ const About = () => {
                 </div>
             </div>
             <div className="container flex justify-center">
-                <img className="w-1/2 h-3/4 shadow-lg" src="/assets/images/about-baanknet.png" alt={"about-image"} />
+                <img className="w-1/2 h-3/4 shadow-lg" src="/assets/images/About.png" alt={"about-image"} />
             </div>
         </div>
     </section>
