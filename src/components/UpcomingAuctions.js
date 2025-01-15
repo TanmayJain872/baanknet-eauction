@@ -21,7 +21,7 @@ const UpcomingAuctions = () => {
   );
 
   return (
-    <div className="p-4 max-w-7xl mx-auto bg-cover bg-center" style={{backgroundImage: "url('/assets/images/UpcomingAuctionsBackgroundImage.png')"}}>
+    <div className="p-4 max-w-7xl mx-auto bg-cover bg-center" style={{backgroundImage: "url('/baanknet-eauction/assets/images/UpcomingAuctionsBackgroundImage.png')"}}>
       {/* Heading */}
       <h1 className="text-3xl font-bold text-center mb-6 text-other-blue-900">
         Upcoming <span className="text-other-purple-300">Auctions in 30 days</span>

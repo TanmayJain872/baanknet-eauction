@@ -9,21 +9,21 @@ const SearchSection = () => {
                 <div>
                     <img 
                         className="border-2 border-other-purple-600 rounded-3xl"
-                        src="/assets/images/CommercialProperty.png"
+                        src="/baanknet-eauction/assets/images/CommercialProperty.png"
                         alt={"commercial-property-image"}
                     />
                 </div>
                 <div>
                     <img 
                         className="border-2 border-other-purple-600 rounded-3xl"
-                        src="/assets/images/AgriculturalProperty.png"
+                        src="/baanknet-eauction/assets/images/AgriculturalProperty.png"
                         alt={"agricultural-property-image"}
                     />
                 </div>
                 <div>
                     <img 
                         className="border-2 border-other-purple-600 rounded-3xl" 
-                        src="/assets/images/IndustrialProperty.png"
+                        src="/baanknet-eauction/assets/images/IndustrialProperty.png"
                         alt={"industrial-property-image"}
                     />
                 </div>
